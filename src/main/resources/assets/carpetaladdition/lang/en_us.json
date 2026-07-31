@@ -8,5 +8,5 @@
   "carpet.rule.dataCommandEnhance.name": "Enhance /data Command",
   "carpet.rule.dataCommandEnhance.desc": "Add copy, modify button to /data command output.",
   "carpet.rule.dataCommandSimplify.name": "Simplify /data Command",
-  "carpet.rule.dataCommandSimplify.desc": "Simplify /data command output by only showing Motion, Pos, and Fuse"
+  "carpet.rule.dataCommandSimplify.desc": "Simplify /data command output by only showing Motion, Pos, and fuse"
 }

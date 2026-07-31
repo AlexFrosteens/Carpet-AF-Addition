@@ -8,5 +8,5 @@
   "carpet.rule.dataCommandEnhance.name": "/data指令增强",
   "carpet.rule.dataCommandEnhance.desc": "为/data指令添加快捷复制、修改按钮",
   "carpet.rule.dataCommandSimplify.name": "/data指令简化",
-  "carpet.rule.dataCommandSimplify.desc": "简化/data指令输出，仅保留Motion、Pos、Fuse"
+  "carpet.rule.dataCommandSimplify.desc": "简化/data指令输出，仅保留Motion、Pos、fuse"
 }
