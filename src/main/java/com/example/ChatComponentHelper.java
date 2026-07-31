@@ -33,7 +33,7 @@ public class ChatComponentHelper {
 
         // 4. 用正则提取 Motion, Pos, Fuse 的值（按原顺序）
         //    列表值：字段名:[...]  普通值：字段名:非逗号非大括号的字符序列
-        Pattern fieldPattern = Pattern.compile("(?<=\\{|, )?(Motion|Pos|Fuse):(?:\\[[^\\]]*\\]|[^,}]+)");
+        Pattern fieldPattern = Pattern.compile("(?<=\\{|, )?(Motion|Pos|fuse):(?:\\[[^]]*]|[^,}]+)");
         Matcher matcher = fieldPattern.matcher(fullData);
 
         // 使用 LinkedHashMap 保持顺序并去重（理论上每个字段只出现一次）
