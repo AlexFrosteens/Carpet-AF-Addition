@@ -1,9 +1,14 @@
 # CarpetALAddition
 
-## Setup
+**CarpetALAddition** is an extension for the Minecraft 26.1.2 Fabric mod **Carpet Mod**, adding three rules under the rule category `AFAdditon`.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Features
+### `endGatewayLoadChunk`
+### `dataCommandEnhance`
+### `dataCommandSimplify`
+
+---
 
 ## License
 
-This template is available under the GPL-3.0 license. Feel free to learn from it.
+This mod is available under the GPL-3.0 license. Feel free to learn from it.
