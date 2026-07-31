@@ -1,0 +1,12 @@
+{
+  "carpet.rule.endGatewayLoadChunk.name": "End Gateway Load Chunk",
+  "carpet.rule.endGatewayLoadChunk.desc": "Controls whether the end gateway loads the target chunk when teleporting",
+  "carpet.rule.endGatewayLoadChunk.option.never": "Never",
+  "carpet.rule.endGatewayLoadChunk.option.item_only": "Item Only",
+  "carpet.rule.endGatewayLoadChunk.option.non_player_only": "Non-Player Only",
+  "carpet.rule.endGatewayLoadChunk.option.always": "Always",
+  "carpet.rule.dataCommandEnhance.name": "Enhance /data Command",
+  "carpet.rule.dataCommandEnhance.desc": "Add copy, modify button to /data command output.",
+  "carpet.rule.dataCommandSimplify.name": "Simplify /data Command",
+  "carpet.rule.dataCommandSimplify.desc": "Simplify /data command output by only showing Motion, Pos, and Fuse"
+}

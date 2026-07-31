@@ -1,0 +1,12 @@
+{
+  "carpet.rule.endGatewayLoadChunk.name": "末地折跃门加载区块",
+  "carpet.rule.endGatewayLoadChunk.desc": "控制末地折跃门传送时是否加载目标区块",
+  "carpet.rule.endGatewayLoadChunk.option.never": "总不",
+  "carpet.rule.endGatewayLoadChunk.option.item_only": "仅掉落物",
+  "carpet.rule.endGatewayLoadChunk.option.non_player_only": "仅非玩家实体",
+  "carpet.rule.endGatewayLoadChunk.option.always": "一直",
+  "carpet.rule.dataCommandEnhance.name": "/data指令增强",
+  "carpet.rule.dataCommandEnhance.desc": "为/data指令添加快捷复制、修改按钮",
+  "carpet.rule.dataCommandSimplify.name": "/data指令简化",
+  "carpet.rule.dataCommandSimplify.desc": "简化/data指令输出，仅保留Motion、Pos、Fuse"
+}
