@@ -1,0 +1,608 @@
+{
+  Motion: [-1.3358346068725182E-60d, 0.0d, 1.0220879126903012E-60d],
+  Invulnerable: 0b,
+  fall_distance: 0.0d,
+  Air: 300s,
+  OnGround: 1b,
+  PortalCooldown: 0,
+  Rotation: [-37.42054f, 0.0f],
+  Passengers: [
+    {
+      Motion: [0.0d, -0.038d, 0.0d],
+      Invulnerable: 0b,
+      fall_distance: 9.339999791234732d,
+      Air: 300s,
+      OnGround: 0b,
+      PortalCooldown: 0,
+      Rotation: [-0.6330166f, 0.0f],
+      Pos: [19.83661082866471d, -59.8125d, -3.3799889360565896d],
+      Fire: 0s,
+      id: "minecraft:minecart",
+      UUID: [I; 381835182, -339328608, -1093742903, -111487755],
+      FlippedRotation: 0b, HasTicked: 0b
+    }
+  ],
+  Pos: [19.83661082866471d, -60.0d, -3.3799889360565896d],
+  Fire: 0s,
+  UUID: [I; 1271636879, 1379092525, -1210617052, 1269584006],
+  FlippedRotation: 0b,
+  HasTicked: 0b
+}
+MutableComponent
+-TranslatableContents key="commands.data.entity.query"
+--MutableComponent [hasStyle]
+---TranslatableContents key="entity.minecraft.minecart"
+--MutableComponent
+---
+---MutableComponent
+----LiteralContentsliteral{{}
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Motion}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Invulnerable}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{fall_distance}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Air}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{300}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{s}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{OnGround}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{1}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{PortalCooldown}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Rotation}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-37.42054}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{f}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{f}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Passengers}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent
+----
+---MutableComponent
+----LiteralContentsliteral{{}
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Motion}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-0.038}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Invulnerable}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{fall_distance}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{114.85999743267894}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Air}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{300}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{s}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{OnGround}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{PortalCooldown}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Rotation}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-0.6330166}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{f}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{f}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Pos}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{19.83661082866471}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-59.8125}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-3.3799889360565896}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Fire}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{s}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{id}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{"}
+  ---MutableComponent [hasStyle]
+----LiteralContentsliteral{minecraft:minecart}
+---MutableComponent
+----LiteralContentsliteral{"}
+  ---MutableComponent
+  ----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{UUID}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{I}
+---MutableComponent
+----LiteralContentsliteral{;}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{381835182}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-339328608}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-1093742903}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-111487755}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{FlippedRotation}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{HasTicked}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{}}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Pos}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{19.83661082866471}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-60.0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-3.3799889360565896}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{d}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{Fire}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{s}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{UUID}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----LiteralContentsliteral{[}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{I}
+---MutableComponent
+----LiteralContentsliteral{;}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{1271636879}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{1379092525}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{-1210617052}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{1269584006}
+---MutableComponent
+----LiteralContentsliteral{]}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{FlippedRotation}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{,}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent
+----
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{HasTicked}
+---MutableComponent
+----LiteralContentsliteral{:}
+---MutableComponent
+----LiteralContentsliteral{ }
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{0}
+---MutableComponent [hasStyle]
+----LiteralContentsliteral{b}
+---MutableComponent
+----LiteralContentsliteral{}}

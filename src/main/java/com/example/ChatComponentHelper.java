@@ -1,5 +1,6 @@
 package com.example;
 
+import carpet.script.language.Sys;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.contents.PlainTextContents;
@@ -15,6 +16,7 @@ public class ChatComponentHelper {
     }
 
     public static Component simplifyDataCommand(Component component) {
+//        ComponentTreePrinter.printTree(component);
         // 1. 确保顶层是 TranslatableContents
         if (!(component.getContents() instanceof TranslatableContents translatable)) {
             return component;
@@ -97,7 +99,7 @@ public class ChatComponentHelper {
         Object[] newArgs = new Object[args.length];
         newArgs[0] = args[0];
         MutableComponent newComponent = MutableComponent.create(PlainTextContents.EMPTY);
-        List<Component> partList = addPassengerPart(siblings, 0, 0);
+        List<Component> partList = addPassengerPart(siblings, 1);
         for (Component part : partList){
             newComponent.append(part);
         }
@@ -129,8 +131,9 @@ public class ChatComponentHelper {
         return component;
     }
 
-    private static List<Component> addPassengerPart(List<Component> siblings, int i, int tab){
-        Set<String> targetNames = Set.of("Motion", "Pos", "fuse", "Passenger");
+    private static List<Component> addPassengerPart(List<Component> siblings, int tab){
+        int i = 0;
+        Set<String> targetNames = Set.of("Motion", "Pos", "fuse", "Passengers");
         List<List<Component>> collectedFields = new ArrayList<>();
 
 //        int i = 0;
@@ -158,12 +161,54 @@ public class ChatComponentHelper {
                 }
 
                 List<Component> fieldParts = new ArrayList<>();
-                if (text.equals("Passenger")){
-                    List<Component> passengerSiblings = new ArrayList<>();
-                    for (int j = start; j <= end; j++) {
-                        passengerSiblings.add(siblings.get(j));
+                if (text.equals("Passengers")){
+                    fieldParts.add(siblings.get(start));    //"Passengers"
+                    start++;
+                    fieldParts.add(siblings.get(start));    //":"
+                    start++;
+                    fieldParts.add(siblings.get(start));    //" "
+                    start++;
+
+                    List<List<Component>> passengerPartList = new ArrayList<>();
+
+                    int jdepth = 0; //depth of [, {
+                    int k = start;
+                    int passengerStart = start, passengerEnd = start;
+                    while (k <= end){
+                        Component comp = siblings.get(k);
+                        String compText = getLiteralText(comp);
+                        if (compText == null) {
+                            k++;
+                            continue;
+                        }
+                        if (compText.equals("{")) {
+                            jdepth++;
+                            if (jdepth == 1)    passengerStart = k;
+                        }
+                        else if (compText.equals("}")) {
+                            jdepth--;
+                            if (jdepth == 0) {
+                                passengerEnd = k;
+                                List<Component> passengerParts = new ArrayList<>();
+                                for (int ix = passengerStart; ix <= passengerEnd; ix++){
+                                    passengerParts.add(siblings.get(ix));
+                                }
+                                passengerPartList.add(passengerParts);
+                                passengerStart = k + 1;
+                            }
+                        }
+                        k++;
                     }
-                    fieldParts.addAll(addPassengerPart(passengerSiblings, 0, tab + 1));
+
+                    fieldParts.add(Component.literal("[\n"));
+                    ListIterator<List<Component>> iterable = passengerPartList.listIterator();
+                    while (iterable.hasNext()){
+                        fieldParts.addAll(addPassengerPart(iterable.next(), tab + 2));
+                        if (iterable.hasNext()) fieldParts.add(Component.literal(",\n"));
+                    }
+                    fieldParts.add(Component.literal("\n"));
+                    addTab(tab, fieldParts);
+                    fieldParts.add(Component.literal("]"));
                 }else {
                     for (int j = start; j <= end; j++) {
                         fieldParts.add(siblings.get(j));
@@ -190,7 +235,9 @@ public class ChatComponentHelper {
         }
 
         addTab(tab - 1, newData);
-        newData.add(Component.literal("\n}"));
+        newData.add(Component.literal("\n"));
+        addTab(tab - 1, newData);
+        newData.add(Component.literal("}"));
         return newData;
     }
 
